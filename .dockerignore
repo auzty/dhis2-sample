@@ -12,6 +12,7 @@ jenkinsfiles
 *.sh
 *.md
 LICENSE
+README.md
 
 **/target
 **/src/test
