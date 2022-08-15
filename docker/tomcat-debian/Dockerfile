@@ -16,7 +16,7 @@ RUN rm -rf /usr/local/tomcat/webapps/* && \
     echo 'tomcat' >> /etc/at.deny
 
 # optional change repo
-RUN sed -i -e 's/deb.debian.org/kebo.pens.ac.id/g' /etc/apt/sources.list
+#RUN sed -i -e 's/deb.debian.org/kebo.pens.ac.id/g' /etc/apt/sources.list
 
 
 RUN apt-get update && \

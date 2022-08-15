@@ -8,7 +8,7 @@ ARG IDENTIFIER=unknown
 LABEL identifier=${IDENTIFIER}
 
 # optional change repo
-RUN sed -i -e 's/deb.debian.org/kebo.pens.ac.id/g' /etc/apt/sources.list
+# RUN sed -i -e 's/deb.debian.org/kebo.pens.ac.id/g' /etc/apt/sources.list
 
 # needed to clone DHIS2 apps
 RUN apt-get update && \
