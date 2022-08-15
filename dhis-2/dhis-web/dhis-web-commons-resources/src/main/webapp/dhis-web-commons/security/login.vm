@@ -55,8 +55,8 @@
 
         <form id="loginForm" action="../../dhis-web-commons-security/login.action" method="post">
             <div>
-                <div id="signInLabel">Masuk </div>
-                <div><input type="text" id="j_username" name="j_username" placeholder="Username" required></div>
+                <div id="signInLabel">Sign In </div>
+                <div><input type="text" id="j_username" name="j_username" placeholder="User" required></div>
                 <div><input type="password" id="j_password" name="j_password" autocomplete="off" placeholder="Password"
                             required></div>
                 <div>
