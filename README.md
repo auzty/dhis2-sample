@@ -10,7 +10,7 @@
     path : `./`
 
     ```bash
-    docker build -t base:test
+    docker build -t base:test .
     ```
 
 2. Extract artifacts
